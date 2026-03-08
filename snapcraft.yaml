@@ -22,9 +22,10 @@ description: |+
 
   Installation: sudo snap install sqlmap
 
-base: core18
+base: core24
 grade: stable
 confinement: strict
+compression: lzo
 
 parts:
   sqlmap:
